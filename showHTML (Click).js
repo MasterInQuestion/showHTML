@@ -1,7 +1,7 @@
 	(function () {
 // ---- BEGIN (0)
 	var x0 = document.createElement( "textarea" );
-	x0.style.cssText = "position: fixed; z-index: 2147483647; left: 0; top: 0; width: 100%; height: " + ( document.documentElement.clientHeight * 0.25 ) + "px; opacity: 0.8";
+	x0.style.cssText = "position: fixed; z-index: 2147483647; left: 0; top: 0; width: 100%; height: " + ( document.documentElement.clientHeight * 0.25 ) + "px; opacity: 0.8; color: black; background-color: white";
 	x0.onfocus = function () { this.style.opacity = 1; };
 	x0.onblur = function () { this.parentNode.removeChild( this ); document.body.removeChild( x1 ); };
 
